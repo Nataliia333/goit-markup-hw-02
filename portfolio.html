@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title lang="en"> Web Studio </title>
+    <link 
+       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" 
+       rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
@@ -11,105 +14,110 @@
     <!-- ШАПКА САЙТА-->
     <header> 
         <nav>
-            <a href="./index.html" aria-label="Логотип"> 
-                <span lang="en"> Web</span> Studio 
+            <a class="logo link" href="./index.html" aria-label="Логотип"> 
+                <span class="logo-web" lang="en"> Web</span> Studio 
             </a> 
-            <ul>
-                <li><a href="./index.html">Студия</a></li>
-                <li><a href="./portfolio.html">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+            <ul class="navigation-list list">
+                <li class="navigation-list-item">
+                    <a class="navigation-list-link link" href="./index.html">Студия</a></li>
+                <li class="navigation-list-item">
+                    <a class="navigation-list-link link" href="./portfolio.html">Портфолио</a></li>
+                <li class="navigation-list-item">
+                    <a class="navigation-list-link link" href="">Контакты</a></li>
             </ul>
         </nav>
         <address>
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <ul class="address-list list">
+                <li class="address-list-item">
+                    <a class="address-list-item link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="address-list-item">
+                    <a class="address-list-item link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </header>
 
     <main>
-    <!--Примеры работ-->
+    <!--Портфолио-Примеры работ-->
     <section>
         <h1 hidden> Примеры работ фильтр </h1>
-      <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+      <ul class="list">
+          <li><button class="button-filtr" type="button">Все</button></li>
+          <li><button class="button-filtr" type="button">Веб-сайты</button></li>
+          <li><button class="button-filtr" type="button">Приложения</button></li>
+          <li><button class="button-filtr" type="button">Дизайн</button></li>
+          <li><button class="button-filtr" type="button">Маркетинг</button></li>
       </ul>
     
-        <ul>
+        <ul class="list">
             <li>
-                <a href="">
+                <a class="link" href="">
                     <img src="./images/portfolio/portfolio-1.jpg" alt="три человека на карточках" width="370" height="294">
-                    <h2>Технокряк</h2>
-                    <p>Веб-сайт</p>
+                    <h2 class="portfolio-title">Технокряк</h2>
+                    <p class="portfolio-description">Веб-сайт</p>
                     <p hidden>Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a class="link" href="">
                     <img src="./images/portfolio/portfolio-2.jpg" alt="два баскетболиста" width="370" height="294">
-                    <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-                    <p>Дизайн</p>
+                    <h2 class="portfolio-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                    <p class="portfolio-description">Дизайн</p>
                     <p hidden>Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a class="link" href="">
                     <img src="./images/portfolio/portfolio-3.jpg" alt="рыба" width="370" height="294">
-                    <h2>Ресторан <span lang="en">Seafood</span></h2>
-                    <p>Приложение</p>
+                    <h2 class="portfolio-title">Ресторан <span lang="en">Seafood</span></h2>
+                    <p class="portfolio-description">Приложение</p>
                     <p hidden>Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a class="link" href="">
                     <img src="./images/portfolio/portfolio-4.jpg" alt="наушники" width="370" height="294">
-                    <h2>Проект <span lang="en">Prime</span></h2>
-                    <p>Маркетинг</p>
+                    <h2 class="portfolio-title">Проект <span lang="en">Prime</span></h2>
+                    <p class="portfolio-description">Маркетинг</p>
                     <p hidden>Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a class="link" href="">
                     <img src="./images/portfolio/portfolio-5.jpg" alt="две коробки" width="370" height="294">
-                    <h2>Проект <span lang="en">Boxes</span></h2>
-                    <p>Приложение</p>
+                    <h2 class="portfolio-title">Проект <span lang="en">Boxes</span></h2>
+                    <p class="portfolio-description">Приложение</p>
                     <p hidden>Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a class="link" href="">
                     <img src="./images/portfolio/portfolio-6.jpg" alt="монитор" width="370" height="294">
-                    <h2><span lang="en">Inspiration has no Borders</span></h2>
-                    <p>Веб-сайт</p>
+                    <h2 class="portfolio-title"><span lang="en">Inspiration has no Borders</span></h2>
+                    <p class="portfolio-description">Веб-сайт</p>
                     <p hidden>Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a class="link" href="">
                     <img src="./images/portfolio/portfolio-7.jpg" alt="книжка" width="370" height="294">
-                    <h2><span lang="en">Издание Limited Edition</span></h2>
-                    <p>Дизайн</p>
+                    <h2 class="portfolio-title"><span lang="en">Издание Limited Edition</span></h2>
+                    <p class="portfolio-description">Дизайн</p>
                     <p hidden>Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a class="link" href="">
                     <img src="./images/portfolio/portfolio-8.jpg" alt="брелок" width="370" height="294">
-                    <h2>Проект <span lang="en">LAB</span></h2>
-                    <p>Маркетинг</p>
+                    <h2 class="portfolio-title">Проект <span lang="en">LAB</span></h2>
+                    <p class="portfolio-description">Маркетинг</p>
                     <p hidden>Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a class="link" href="">
                     <img src="./images/portfolio/portfolio-9.jpg" alt="ноутбук" width="370" height="294">
-                    <h2><span lang="en">Growing Business</span></h2>
-                    <p>Приложение</p>
+                    <h2 class="portfolio-title"><span lang="en">Growing Business</span></h2>
+                    <p class="portfolio-description">Приложение</p>
                     <p hidden>Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                 </a>
             </li>
@@ -117,22 +125,25 @@
     </section>
     </main>
      <!--Футер-->
-     <footer>
+     <footer class="footer">
         <div>
-            <a href="./index.html" aria-label="Логотип"> 
-                <span lang="en"> Web</span> Studio 
+            <a class="logo link" href="./index.html" aria-label="Логотип"> 
+                <span class="logo-web" lang="en"> Web</span> Studio 
             </a> 
-            <address>
-                <ul>
-                    <li><a href="https://goo.gl/maps/S5MpqA1Hz2Mmm9eA8" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
-                    <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <address class="address">
+                <ul class="address-list list">
+                    <li class="address-list-item">
+                        <a class="footer-list-link link" href="https://goo.gl/maps/S5MpqA1Hz2Mmm9eA8" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
+                    <li class="address-list-item">
+                        <a class="footer-list-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="address-list-item">
+                        <a class="footer-list-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
             </address>
         </div>
         <div>
-            <p>присоединяйтесь</p>
-            <ul>
+            <p class="footer-text">присоединяйтесь</p>
+            <ul class="list">
                 <li>
                     <a href="" aria-label="иконка инстаграма"></a>
                 </li>
